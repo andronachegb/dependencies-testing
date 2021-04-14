@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tbml xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.teslaalliance.org/trs/tbml/1.0/tbml-core.xsd" xmlns="http://www.teslaalliance.org/trs/tbml/1.0">
+  <header>
+    <name>top1</name>
+    <description></description>
+    <property name="author">AAndronache</property>
+    <property name="dateCreated">2021-03-14T21:59:36.952+02:00</property>
+    <property name="notes"/>
+    <property name="dateModified">2021-03-14T22:17:43.283+02:00</property>
+    <property name="creationTool" vendor="com.fnfr">com.fnfr.itest.topology.tbml.diagram</property>
+    <property name="creationToolVersion" vendor="com.fnfr">8.4.0.202011171236</property>
+  </header>
+  <body>
+    <resources>
+      <resource guid="6654f0d0-9893-4101-b569-eb25bec7e533" id="resource_0" type="pc">
+        <boundary height="100" width="100" x="572" y="340"/>
+        <property name="iconURI">platform:/plugin/com.fnfr.itest.topology.tbml.edit/icons/full/topology/pc_32.gif</property>
+        <property name="name">pc1</property>
+        <property name="inventoryName"/>
+        <extensions type="com.fnfr.itest.session" xs:namespace="com.fnfr.itest.session">
+          <session baseSessionProfile="" name="REST" provider="com.fnfr">
+            <sessionProfile version="8.4.0.202012071239">
+              <baseApplication>com.fnfr.itest.applications.webservices.restful</baseApplication>
+              <sessionProperties transferableToolId="com.fnfr.itest.applications.webservices.restful" transferableType="com.fnfr.itest.applications.webservices.properties.restful.RESTfulSessionProperties" type="com.fnfr.svt.adapter.automation.tools.common.documents.TransferableDocumentObject"/>
+              <baseProfile>project://RepoTest2/session_profiles/REST.ffsp</baseProfile>
+              <language>Python</language>
+            </sessionProfile>
+            <isInherited>false</isInherited>
+            <isDisabled>false</isDisabled>
+          </session>
+        </extensions>
+      </resource>
+    </resources>
+    <connectivity/>
+  </body>
+  <illustration>
+    <layer/>
+  </illustration>
+</tbml>
